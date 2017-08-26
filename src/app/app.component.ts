@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  lateStudent = 'Franklin';
+  coaches = [{
+  	name:'Yuchin',
+  	description:'Special in Golf',
+  	image_url:'http://www.facebook.com'
+
+  },
+  {
+  	name:'Franklin',
+  	description:'Lost weight ... 500 calories per day!',
+  	image_url:'http://www.facebook.com'
+  },
+  {
+  	name:'Ken',
+  	description:'Weight Lifting!',
+  	image_url:'http://www.facebook.com'
+}
+  ]
 }
